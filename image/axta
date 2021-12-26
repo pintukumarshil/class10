@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap");
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+body {width: 1150px; margin: 0px auto; font-family: 'Oswald', sans-serif;font-family: 'Work Sans', sans-seri}
+.fix{overflow: hidden;}
+#header { width: 100%; float: left; background: url("image/top-background.png") center center / cover no-repeat; position: relative; }
+.container { width: 90%; margin: 0px auto; }
+.top_header { width: 100%; float: left; padding: 50px; }
+.logo_area { width: 35%; float: left; }
+.logo_area img { width: 35%; color: rgb(255, 255, 255); }
+.manu_area { width: 60%; float: left; text-align: center; margin: 2%; }
+.manu_area ul { list-style: none; }
+.manu_area ul li { display: inline-block; }
+.manu_area ul li a { margin: 0px 25px; text-decoration: none; font-size: 20px; text-transform: uppercase; font-weight: 800; color: rgb(255, 255, 255); transition: all 1s ease 0s; }
+.manu_area ul li a:hover { color: rgb(199, 169, 169); font-size: 18px; }
+.hero_area { width: 100%; float: left; text-align: center; }
+.hero_area h1 { line-height: 43px; font-size: 40px; color: rgb(255, 255, 255); }
+.hero_area p { line-height: 45px; color: rgb(255, 255, 255); font-size: 14px; }
+.hero_area img { width: 250px; }
+.butt { }
+.butt button { padding: 10px 30px; border-radius: 10px; }
+.batton1 { background: white; color: black; font-weight: 600; border: 1px solid white; margin-right: 20px;}
+.batton2 { background: transparent; color: rgb(255, 255, 255); font-weight: 600; border: 1px solid white; }
+.butt a { }
+#precesh { width: 1150px; margin: 0px auto; float: left; background: url("image/bg2.png") center center / cover no-repeat; position: absolute; top: 685px; padding: 30px; }
+.image2 img {width: 250px;margin-top: 392px;}
+.contant { width: 70%; float: left; text-align: center; padding-top: 255px; margin-left: 44px; margin-bottom: 100px; }
+.contant_part1 {width: 100%; float: left; margin-left: 130px; margin-bottom: 50px; }
+.contant1 {width: 40%;float: left;position: relative;background: rgb(255, 255, 255);box-shadow: rgb(185, 181, 181) 5px 7px 15px;padding: 15px;margin-top: 50px;}
+.contant1_sild {width: 100%;position: absolute;left: 282px;bottom: -50px;box-shadow: rgb(185, 181, 181) 5px 7px 15px;padding: 15px;}
+.contant1_sild img {width: 40px; margin-bottom: 18px; }
+.contant1_sild h2 { font-size: 16px; font-weight: 700; line-height: 30px; }
+.contant1_sild p { font-size: 12px; line-height: 17px; color: rgb(135, 128, 128); margin-bottom: 10px; }
+.content_part2 {width: 100%; float: left; margin-left: 100px; }
+.contant1 img {width: 40px; margin-bottom: 18px; }
+.contant1 h2 {font-size: 21px;font-weight: 700;line-height: 44px;}
+.contant1 p {font-size: 18px;line-height: 17px;color: rgb(135, 128, 128);margin-bottom: 20px;letter-spacing: 1px;text-align: left;}
